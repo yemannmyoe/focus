@@ -1,0 +1,30 @@
+*{
+	font-family: aa;
+}
+
+@font-face
+
+{
+	font-family:aa;
+	src:url('ee.ttf');
+}
+a
+{
+	font-family:"aa";
+}
+div#carouselExampleIndicators img
+{
+	width:100%;
+	margin: 0 auto;
+	height:200px;
+	object-fit:cover;
+}
+#container{
+	background:linear-gradient(to bottom,rgba(255,255,255,.4)0, rgba(255,255,255,.4)100%),url(q.jpg);
+	width:100%;
+	height:300px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}

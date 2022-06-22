@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fit Food</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+  <link rel="icon" type="jpg" href="1.png" size="16*16">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+	<style type="text/css">
+    body{
+  overflow-x: hidden;
+}
+.hidden-thing
+{
+  position: absolute;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+		div#carouselExampleIndicators img
+{
+	width:100%;
+	margin: 0 auto;
+	height:500px;
+	object-fit:cover;
+}
+div#cool1 a {
+color:white;
+}
+
+div#cool2 a {
+color:white;
+}
+div#cool h3 {
+color:#04431B;
+}
+
+
+
+
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light " >
+	<a class="navbar-brand" href="#"><img src="1.png" style="width:140px; height:40px">
+			</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active ">
+        <a class="nav-link text-success" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active ">
+        <a class="nav-link text-success" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Burmese.html">Burmese</a>
+          <a class="dropdown-item" href="Japanese.html">Japanese</a>
+          <a class="dropdown-item" href="korean.html">Korean</a>
+          <a class="dropdown-item" href="chinese.html">Chinese</a>
+          <a class="dropdown-item" href="indian.html">Indian</a>
+          
+          
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-success" href="contact.html"  >Contact</a>
+      </li>
+      <li class="nav-item active px-3">
+						<a class="nav-link text-success" href="#" data-toggle="modal" data-target="#cardoneModal">SignIn/SignUp <span class="sr-only">(current)</span></a>
+					</li>
+    </ul>
+      </div>
+
+    <div class="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+          <span class="cart-info_icon mr-lg-3 "><a href="checkout.html"> 
+          <i class="fas fa-cart-arrow-down"></i></a>
+            </span>
+        </div>
+</nav>
+
+<div id="cool">
+  <div class="container justify-content-center text-center" id="navtitle">
+      
+        <div class="col-12">
+          <h3 class="display-1">Be Enjoy With Our Food</h3>
+          <hr class="my-5" id="divider">
+
+        </div>
+        <div class="col-12">
+          <h4 class="text-success">Contact Offline Phone O9785213094</h4>
+          
+
+        </div>
+
+
+      </div>
+  </div>
+  <div class="container my-5">
+      <h1 align="center">Burmese Food</h1>
+    
+    <div class="row">
+      
+      <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+        <div class="card">
+          <img src="image/b1.jpg" class="card-img-top">
+          <div class="card-body">
+            <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+            <h5 class="card-title">Mohinga</h5>
+    <p class="card-text" style="color:blue">2500 mmk.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            
+                      
+                      <a class="addtocart btn btn-success" data-name="Mohinga" data-price="2500" data-id="9">
+                         <i class="fas fa-cart-plus"></i>
+                      </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+        <div class="card">
+          <img src="image/b2.jpg" class="card-img-top">
+          <div class="card-body">
+            <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+            <h5 class="card-title">Green Tea Seaf Salad</h5>
+    <p class="card-text"style="color:blue">2000 mmk</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            
+                      
+                      <a class="addtocart btn btn-success" data-name="Green Tea Seaf Salad" data-price="2000" data-id="10">
+                         <i class="fas fa-cart-plus"></i>
+                      </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+        <div class="card">
+          <img src="image/b3.jpg" class="card-img-top">
+          <div class="card-body">
+            <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+
+<i class="fas fa-star-half-alt"></i>
+            <h5 class="card-title">A-Kyaw-Sone</h5>
+    <p class="card-text" style="color:blue">4000 mmk.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            
+                      
+                      <a class="addtocart btn btn-success" data-name="A-Kyaw-Sone" data-price="4000" data-id="11">
+                         <i class="fas fa-cart-plus"></i>
+                      </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+        <div class="card">
+          <img src="image/b4.jpg" class="card-img-top">
+          <div class="card-body">
+            <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+
+
+            <h5 class="card-title">Burmese Rice & Meal</h5>
+    <p class="card-text" style="color:blue">3000 mmk.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            
+                  
+                      <a class="addtocart btn btn-success" data-name="Burmese Rice & Meal" data-price="3000" data-id="12">
+                         <i class="fas fa-cart-plus"></i>
+                      </a>
+          </div>
+
+
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+        <div class="card">
+          <img src="image/b5.jpg" class="card-img-top">
+          <div class="card-body">
+            <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+            <h5 class="card-title">Nangyi Salad</h5>
+    <p class="card-text" style="color:blue">2500 mmk.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            
+                      
+                      <a class="addtocart btn btn-success" data-name="Nangyi Salad" data-price="2500" data-id="13">
+                         <i class="fas fa-cart-plus"></i>
+                      </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+        <div class="card">
+          <img src="image/b6.jpg" class="card-img-top">
+          <div class="card-body">
+            <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+            <h5 class="card-title">Shan Noddle</h5>
+    <p class="card-text"style="color:blue">2000 mmk</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            
+                  
+                      <a class="addtocart btn btn-success" data-name="Shan Noddle" data-price="2000" data-id="14">
+                         <i class="fas fa-cart-plus"></i>
+                      </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+        <div class="card">
+          <img src="image/b7.jpg" class="card-img-top">
+          <div class="card-body">
+            <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+
+<i class="fas fa-star-half-alt"></i>
+            <h5 class="card-title">Naan Flat Bread & Cuppa</h5>
+    <p class="card-text" style="color:blue">4000 mmk.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            
+                  
+                      <a class="addtocart btn btn-success" data-name="Naan Flat Bread & Cuppa" data-price="4000" data-id="15">
+                         <i class="fas fa-cart-plus"></i>
+                      </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+        <div class="card">
+          <img src="image/b8.jpg" class="card-img-top">
+          <div class="card-body">
+            <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+
+
+            <h5 class="card-title">Paepyar Salad</h5>
+    <p class="card-text" style="color:blue">3000 mmk.</p>
+          </div>
+          <div class="card-footer bg-transparent">
+            
+                    
+                      <a class="addtocart btn btn-success" data-name="Paepyar Salad" data-price="3000" data-id="16"> 
+                        <i class="fas fa-cart-plus"></i>
+                      </a>
+
+          </div>
+        </div></div></div></div>
+
+<div class="modal fade" id="cardoneModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign In/Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="a.gif" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+
+            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active text-success" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" >Sign Up</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-success" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Sign In</a>
+  </li>
+  
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+    
+  <form>
+    
+<div class="form-group">
+  <label for="username">User Name</label>
+  <input type="text" name="" class="form-control" id="username">
+  <label for="email">Email</label>
+  <input type="email" name="" class="form-control" id="email">
+  <label for="password">Password</label>
+  <input type="password" name="" class="form-control" id="password">
+</div>
+
+<div class="offset-2 col-8 offset-2">
+  
+<button type="submit" class="btn btn-success btn-block">
+  
+  Register
+</button>
+
+</div>
+
+  </form>
+
+
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    
+    <div class="form-group">
+  <label for="email">Email</label>
+  <input type="email" name="" class="form-control" id="email">
+  <label for="password">Password</label>
+  <input type="password" name="" class="form-control" id="password">
+  
+  <input type="checkbox" name="" >
+  <label for="rememberme">Remember Me</label>
+  
+
+</div>
+<div class="offset-2 col-8 offset-2">
+  
+<button type="submit" class="btn btn-success btn-block">
+  
+  Login
+</button>
+
+</div>
+
+
+  </form>
+
+  </div>
+ 
+</div>
+</div></div></div></div></div></div>
+
+
+
+
+
+
+
+          <div class="footer bg-success ">
+<div class="row">
+  <div class="col-lg-10 col-md-6 col-sm-12 mx-5 my-5" >
+  <p class="text-light">Our Food Delivery System is Myanmar's leading online and mobile food-ordering company dedicated to bring Yangon's best restaurants to our customers doorstep. The company's online and mobile ordering platforms allow diners to order food delivery and pickup from a vast amount of takeout restaurants, and every order is supported by the company's amazing customer service team.</p>
+  </div>
+  <hr class="my-5" id="divider">
+
+  <div class="col-lg-2 col-md-6 col-sm-12 my-5 mx-5" id="cool1" >
+ <h4>Get Connected</h4>
+ <i class="fab fa-twitter"></i>
+ <a href="">Twitter</a><br>
+ <i class="fab fa-facebook-square"></i>
+ <a href="">Facebook</a><br>
+ <i class="fab fa-google-plus-g"></i>
+ <a href="">Google Plus</a><br>
+ <i class="fab fa-instagram"></i>
+ <a href="">Instagram</a><br>
+  </div>
+
+<div class="row">
+  <div class="col-lg-12 col-md-6 col-sm-12 my-5 mx-5" id="cool2" >
+ <h4>Nevigate</h4>
+ 
+ <a href="">Home</a>
+ 
+ <a href="">About</a>
+ 
+ <a href="">Menu</a>
+
+ <a href="">Contact</a>
+ <a href="">Sign In/ Sign Up</a>
+
+  </div>
+ 
+
+</div>
+  <hr class="my-5" id="divider">
+
+</div>
+
+
+</div>
+</body>
+</html>
